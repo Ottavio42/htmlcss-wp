@@ -45,21 +45,14 @@ nav{
     margin-bottom: 30px;
 }
 .box1{
+    position: relative;
     height: 450px;
     background-image: url(../img/banner.jpg);
     margin-bottom: 20px;
     background-position: center center;
-    position: relative;
     overflow: hidden;
 }
-.overlay {
-	background-color: rgba(0,0,0,0.2);
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-}
+
 .didascalia{
     width: 70%;
     padding: 50px 70px;
@@ -69,23 +62,20 @@ nav{
 #titolo-didasc,#testo-didasc{
     color: #ffffff;
 }
+    /* SECONDO BANNER */
 
-.box2{
-    background-color: #0187fc;
-    height: 600px;
-}
-.box2 > div{
-    background-color: #abcfe7;
-}
 .barra-centrale{
-    height: 80px;
-    background-color: #abcfe7;
-
+    margin: 30px 0;
+}
+.sottotitolo {
+    color: grey;
+    font-size: 10px;
 }
 
 .col-sinistra,.col-centrale,.col-destra{
     float: left;
     height: calc(100% - 40px);
+    
 }
 
 .col-sinistra, .col-destra{
@@ -97,9 +87,54 @@ nav{
     width: calc(60% - 40px);
 	margin: 20px 20px;
 }
+.img-sin,.img-cen,.img-des{
+    height: 150px;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden; 
+}
+
+
+.img-sin{
+    background-image: url(../img/img-1.jpg);
+}
+.img-cen{
+    background-image: url(../img/banner-2.jpg);
+}
+.img-des{
+    background-image: url(../img/img-3.jpg);
+}
+.img-sin,.img-cen,.img-des{
+    height: 150px;
+}
+.img-sin{
+    background-image: url(../img/img-1.jpg);
+    
+}
+h3,p{
+    color: grey;
+    font-size: 12px
+}
+
 /* footer */
 footer{
-    height: 60px;
-    background-color: #8801fd;
+   text-align: center;
     margin: 20px 0;
 }
+.cuore{
+    color: red;
+    font-size: 25px;
+}
+
+
+
+/* .overlay {
+	background-color: rgba(0,0,0,0.2);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+} */
