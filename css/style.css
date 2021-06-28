@@ -51,6 +51,7 @@ nav{
     margin-bottom: 20px;
     background-position: center center;
     overflow: hidden;
+    position: relative;
 }
 
 .didascalia{
@@ -130,11 +131,11 @@ footer{
 
 
 
-/* .overlay {
+.overlay {
 	background-color: rgba(0,0,0,0.2);
 	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
-} */
+}
