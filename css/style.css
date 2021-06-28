@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/* comune */
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.container {
+	width: 60%;
+	margin: auto;
+}
+
+/* Header */
+
+.intestazione{
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 30px 0;
+}
+.logo-img{
+    vertical-align: middle;
+}
+.logo-text{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Corpo */
+ul#menu li {
+    float: left;
+    list-style: none;
+    padding: 0 2px;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: grey;
+}
+nav{
+    margin-bottom: 30px;
+}
+.box1{
+    height: 600px;
+    background-color:#e1d67a ;
+    margin-bottom: 20px;
+}
+.box2{
+    background-color: #0187fc;
+    height: 600px;
+}
+.box2 > div{
+    background-color: #abcfe7;
+}
+.barra-centrale{
+    height: 80px;
+    background-color: #abcfe7;
+
+}
+
+.col-sinistra,.col-centrale,.col-destra{
+    float: left;
+    height: calc(100% - 40px);
+}
+
+.col-sinistra, .col-destra{
+	width: 20%;
+    margin: 20px 0;
+}
+
+.col-centrale{
+    width: calc(60% - 40px);
+	margin: 20px 20px;
+}
+/* footer */
+footer{
+    height: 60px;
+    background-color: #8801fd;
+    margin: 20px 0;
+}
