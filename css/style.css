@@ -34,7 +34,7 @@
 ul#menu li {
     float: left;
     list-style: none;
-    padding: 0 2px;
+   padding-right: 10px;
     text-decoration: none;
 }
 a {
@@ -52,6 +52,7 @@ nav{
     background-position: center center;
     overflow: hidden;
     position: relative;
+    border-radius: 10px;
 }
 
 .didascalia{
